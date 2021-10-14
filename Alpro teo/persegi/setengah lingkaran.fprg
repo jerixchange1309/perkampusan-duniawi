@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="62851"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 07:56:19 PM"/>
+        <attribute name="created" value="NjI4NTE7REVTS1RPUC1NUjVVTVBEOzIwMjEtMTAtMTI7MDc6NTE6MDIgUE07MjYzNQ=="/>
+        <attribute name="edited" value="NjI4NTE7REVTS1RPUC1NUjVVTVBEOzIwMjEtMTAtMTI7MDc6NTY6MTkgUE07MTsyNzU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="L2, jarijari" type="Integer" array="False" size=""/>
+            <input variable="jarijari"/>
+            <assign variable="L2" expression="3.14 * jarijari * 0.5"/>
+            <output expression="L2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

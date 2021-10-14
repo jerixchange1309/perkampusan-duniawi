@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="62851"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-14 02:30:39 PM"/>
+        <attribute name="created" value="NjI4NTE7REVTS1RPUC1NUjVVTVBEOzIwMjEtMTAtMTQ7MDI6MTc6NDAgUE07MjYzNg=="/>
+        <attribute name="edited" value="NjI4NTE7REVTS1RPUC1NUjVVTVBEOzIwMjEtMTAtMTQ7MDI6MzA6MzkgUE07MTsyNzQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hargabarang, totalbarang, totalharga" type="Integer" array="False" size=""/>
+            <declare name="diskon" type="Real" array="False" size=""/>
+            <input variable="hargabarang"/>
+            <input variable="totalbarang"/>
+            <input variable="diskon"/>
+            <assign variable="totalharga" expression="hargabarang*totalbarang*diskon"/>
+            <output expression="totalharga" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
